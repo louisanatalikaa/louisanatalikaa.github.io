@@ -1,0 +1,60 @@
+body{
+	font-family: 'Karla', sans-serif;
+	padding: 16px 48px;
+}
+
+.container{
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+	align-times: center;
+	padding: 32px;
+}
+
+.leftContainer{
+	
+	align-items: flex-start;
+} 
+
+.rightContainer{
+	width: 1000px;
+	align-items: flex-end;
+}
+
+.imageContainer{
+	display: flex;
+	flex-direction: row;
+}
+
+h1{
+	font-size: 72px;
+}
+
+h2{
+	font-size: 48px;
+	color: grey;
+	font-style: italic;
+	margin-top: 0;
+	font-weight: 400;
+}
+
+
+.photo {
+	width: 150px;
+	height: 150 px;
+	object-fit: cover;
+	border-radius: 50%
+	margin: 16px;
+}
+
+.sm-photo{
+	width: 100px;
+	height: 100px;
+	margin-right: 100px;
+}
+
+.sm-photo-right{
+	border-radius: 0;
+	margin-right: 0px;
+	margin-left: 32px;
+}
